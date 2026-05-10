@@ -18,8 +18,8 @@ A premium, interactive CI/CD pipeline visualizer built with a modern "Dark Cyber
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/cicd-pipeline-visualizer.git
-   cd cicd-pipeline-visualizer
+   git clone https://github.com/Santhosh2313/CI-CD-pipeline-visualizer.git
+   cd CI-CD-pipeline-visualizer
    ```
 
 2. **Install dependencies**:
@@ -37,7 +37,7 @@ A premium, interactive CI/CD pipeline visualizer built with a modern "Dark Cyber
 This project is optimized for **Vercel** and **GitHub Pages**.
 
 #### Deploy to Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fcicd-pipeline-visualizer)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSanthosh2313%2FCI-CD-pipeline-visualizer)
 
 1. Push your code to a GitHub repository.
 2. Connect your repository to Vercel.
