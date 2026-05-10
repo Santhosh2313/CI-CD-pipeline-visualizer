@@ -1,0 +1,23 @@
+{
+  "name": "cicd-pipeline-visualizer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A premium, interactive CI/CD pipeline visualizer with a neon dark theme.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "cicd",
+    "visualizer",
+    "pipeline",
+    "neon",
+    "vite",
+    "javascript"
+  ],
+  "devDependencies": {
+    "vite": "^8.0.10"
+  }
+}

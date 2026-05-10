@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeonFlow | CI/CD Visualizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header">
+        <div class="logo">
+          <span class="logo-icon">⚡</span>
+          <h1>NeonFlow</h1>
+        </div>
+        <div class="controls">
+          <button id="run-btn" class="btn btn-primary">Run Pipeline</button>
+          <button id="reset-btn" class="btn btn-secondary">Reset</button>
+        </div>
+      </header>
+
+      <main class="visualizer-container">
+        <div id="pipeline-canvas" class="pipeline-canvas">
+          <svg id="svg-connections" class="svg-connections"></svg>
+          <div id="nodes-container" class="nodes-container"></div>
+        </div>
+      </main>
+
+      <aside id="details-panel" class="details-panel">
+        <div class="panel-header">
+          <h2>Stage Details</h2>
+          <button id="close-panel" class="close-btn">&times;</button>
+        </div>
+        <div id="panel-content" class="panel-content">
+          <p class="placeholder-text">Select a stage to view logs and status.</p>
+        </div>
+      </aside>
+
+      <footer class="app-footer">
+        <div class="status-bar">
+          <span class="status-item">Status: <strong id="global-status">Idle</strong></span>
+          <span class="status-item">Duration: <strong id="global-duration">0s</strong></span>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
