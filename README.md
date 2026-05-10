@@ -36,9 +36,6 @@ A premium, interactive CI/CD pipeline visualizer built with a modern "Dark Cyber
 
 This project is optimized for **Vercel** and **GitHub Pages**.
 
-#### Deploy to Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSanthosh2313%2FCI-CD-pipeline-visualizer)
-
 1. Push your code to a GitHub repository.
 2. Connect your repository to Vercel.
 3. Vercel will automatically detect the Vite configuration and deploy.
@@ -65,7 +62,3 @@ cicd-pipeline-visualizer/
 - **Styling**: CSS3 (Vanilla) with CSS Variables
 - **Build Tool**: Vite
 - **Animations**: CSS Keyframes, SVG Paths
-
-## 📄 License
-
-MIT License - feel free to use and modify for your own projects!
